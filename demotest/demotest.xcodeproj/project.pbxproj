@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7DC126EB190E6AC100D07CA6 /* annotation.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DC126EA190E6AC100D07CA6 /* annotation.png */; };
+		7DC126EE190E72DB00D07CA6 /* DMPointAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC126ED190E72DB00D07CA6 /* DMPointAnnotation.m */; };
+		7DC126F1190E7AF800D07CA6 /* DMPolyline.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC126F0190E7AF800D07CA6 /* DMPolyline.m */; };
+		7DC126F5190EA78500D07CA6 /* DetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC126F3190EA78500D07CA6 /* DetailTableViewCell.m */; };
+		7DC126F6190EA78500D07CA6 /* DetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DC126F4190EA78500D07CA6 /* DetailTableViewCell.xib */; };
+		7DC126FA190ECFDC00D07CA6 /* DetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC126F8190ECFDC00D07CA6 /* DetailVC.m */; };
+		7DC126FB190ECFDC00D07CA6 /* DetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DC126F9190ECFDC00D07CA6 /* DetailVC.xib */; };
 		7DF41C73190BD507007E8F36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DF41C72190BD507007E8F36 /* Foundation.framework */; };
 		7DF41C75190BD507007E8F36 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DF41C74190BD507007E8F36 /* CoreGraphics.framework */; };
 		7DF41C77190BD507007E8F36 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DF41C76190BD507007E8F36 /* UIKit.framework */; };
@@ -35,6 +42,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7DC126EA190E6AC100D07CA6 /* annotation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = annotation.png; sourceTree = "<group>"; };
+		7DC126EC190E72DB00D07CA6 /* DMPointAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMPointAnnotation.h; sourceTree = "<group>"; };
+		7DC126ED190E72DB00D07CA6 /* DMPointAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMPointAnnotation.m; sourceTree = "<group>"; };
+		7DC126EF190E7AF800D07CA6 /* DMPolyline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMPolyline.h; sourceTree = "<group>"; };
+		7DC126F0190E7AF800D07CA6 /* DMPolyline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMPolyline.m; sourceTree = "<group>"; };
+		7DC126F2190EA78500D07CA6 /* DetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailTableViewCell.h; sourceTree = "<group>"; };
+		7DC126F3190EA78500D07CA6 /* DetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailTableViewCell.m; sourceTree = "<group>"; };
+		7DC126F4190EA78500D07CA6 /* DetailTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailTableViewCell.xib; sourceTree = "<group>"; };
+		7DC126F7190ECFDC00D07CA6 /* DetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailVC.h; sourceTree = "<group>"; };
+		7DC126F8190ECFDC00D07CA6 /* DetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailVC.m; sourceTree = "<group>"; };
+		7DC126F9190ECFDC00D07CA6 /* DetailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailVC.xib; sourceTree = "<group>"; };
 		7DF41C6F190BD507007E8F36 /* demotest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demotest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DF41C72190BD507007E8F36 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7DF41C74190BD507007E8F36 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -116,6 +134,7 @@
 		7DF41C78190BD507007E8F36 /* demotest */ = {
 			isa = PBXGroup;
 			children = (
+				7DC126EA190E6AC100D07CA6 /* annotation.png */,
 				7DF41C81190BD508007E8F36 /* AppDelegate.h */,
 				7DF41C82190BD508007E8F36 /* AppDelegate.m */,
 				7DF41C84190BD508007E8F36 /* Images.xcassets */,
@@ -123,6 +142,16 @@
 				7DF41CA1190BD534007E8F36 /* HomeVC.h */,
 				7DF41CA2190BD534007E8F36 /* HomeVC.m */,
 				7DF41CA3190BD534007E8F36 /* HomeVC.xib */,
+				7DC126EC190E72DB00D07CA6 /* DMPointAnnotation.h */,
+				7DC126ED190E72DB00D07CA6 /* DMPointAnnotation.m */,
+				7DC126EF190E7AF800D07CA6 /* DMPolyline.h */,
+				7DC126F0190E7AF800D07CA6 /* DMPolyline.m */,
+				7DC126F2190EA78500D07CA6 /* DetailTableViewCell.h */,
+				7DC126F3190EA78500D07CA6 /* DetailTableViewCell.m */,
+				7DC126F4190EA78500D07CA6 /* DetailTableViewCell.xib */,
+				7DC126F7190ECFDC00D07CA6 /* DetailVC.h */,
+				7DC126F8190ECFDC00D07CA6 /* DetailVC.m */,
+				7DC126F9190ECFDC00D07CA6 /* DetailVC.xib */,
 			);
 			path = demotest;
 			sourceTree = "<group>";
@@ -231,6 +260,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DC126EB190E6AC100D07CA6 /* annotation.png in Resources */,
+				7DC126FB190ECFDC00D07CA6 /* DetailVC.xib in Resources */,
+				7DC126F6190EA78500D07CA6 /* DetailTableViewCell.xib in Resources */,
 				7DF41C7D190BD507007E8F36 /* InfoPlist.strings in Resources */,
 				7DF41CA5190BD534007E8F36 /* HomeVC.xib in Resources */,
 				7DF41C85190BD508007E8F36 /* Images.xcassets in Resources */,
@@ -252,8 +284,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DC126F5190EA78500D07CA6 /* DetailTableViewCell.m in Sources */,
+				7DC126EE190E72DB00D07CA6 /* DMPointAnnotation.m in Sources */,
 				7DF41CA4190BD534007E8F36 /* HomeVC.m in Sources */,
+				7DC126FA190ECFDC00D07CA6 /* DetailVC.m in Sources */,
 				7DF41C83190BD508007E8F36 /* AppDelegate.m in Sources */,
+				7DC126F1190E7AF800D07CA6 /* DMPolyline.m in Sources */,
 				7DF41C7F190BD507007E8F36 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -451,6 +487,7 @@
 				7DF41C9D190BD508007E8F36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7DF41C9E190BD508007E8F36 /* Build configuration list for PBXNativeTarget "demotestTests" */ = {
 			isa = XCConfigurationList;
@@ -459,6 +496,7 @@
 				7DF41CA0190BD508007E8F36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
